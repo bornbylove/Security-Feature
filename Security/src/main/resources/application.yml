@@ -1,0 +1,15 @@
+Spring:
+  Datasource:
+    url: jdbc:postgresql://localhost:5432/jwtSecurity
+    username: postgres
+    password: bornbylove123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  show-sql: true
+  properties:
+    hibernate:
+      format-sql: true
+  database: posgresql
+  database-platform: org.hibernate.dialect.postgreSQLDialect
